@@ -6,15 +6,15 @@ class History extends StatelessWidget{
 
   @override
   Widget build(context){
-    return Column(
+    return const Column(
       children:[
-        const Text("video 1"),
-        const SizedBox(height : 10),
-        const Text("video 2"),
-        const SizedBox(height : 10),
-        const Text("video 3"),
-        const SizedBox(height : 10),
-         const Text("video 4")
+        Text("video 1"),
+        SizedBox(height : 10),
+        Text("video 2"),
+        SizedBox(height : 10),
+        Text("video 3"),
+        SizedBox(height : 10),
+         Text("video 4")
       ]
     );
   }
