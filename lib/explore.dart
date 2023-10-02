@@ -6,21 +6,56 @@ class Explore extends StatelessWidget {
   Widget build(BuildContext context) {
     return const  Column(
       children:[
-        Text("music 1"),
-        SizedBox(height : 10),
-        Text("video 2"),
-        SizedBox(height : 10),
-        Text("dance 3"),
-        SizedBox(height : 10),
-         Text("gaming 4"),
-        SizedBox(height : 10),
-         Text("video 5"),
-        SizedBox(height : 10),
-        Text("video 6"),
-        SizedBox(height : 10),
-        Text("video 7"),
-        SizedBox(height : 10),
-         Text("video 8")
+        Row(
+          children : [
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+              child : Text("Trending", style : TextStyle(color : Colors.white)),
+            )
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+               child : Text("New Release", style : TextStyle(color : Colors.white)),
+            )
+          ]
+        )
+        SizedBox(height : 10)
+        Row(
+          children : [
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+               child : Text("Reels", style : TextStyle(color : Colors.white)),
+            )
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+               child : Text("Drama", style : TextStyle(color : Colors.white)),
+            )
+          ]
+        )
+        SizedBox(height : 10)
+        Row(
+          children : [
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+               child : Text("Music", style : TextStyle(color : Colors.white)),
+            )
+            Container( 
+              height : 20,
+              width : 150,
+              color: Colors.red,
+               child : Text("Movies", style : TextStyle(color : Colors.white)),
+            )
+          ]
+        )
       ]
     );
   }
