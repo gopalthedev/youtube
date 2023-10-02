@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube/video_player.dart';
+import 'package:youtube/video_card.dart';
 
 import 'feed_data.dart';
 import 'feed_structure.dart';
@@ -24,7 +24,7 @@ class _FeedState extends State<Feed> {
         children: [
           ...fixedList.map((item){
             FeedStructure val = feed[item];
-            return VideoPlayer(val.url, val.title);
+            return VideoPlayer(val.url);
           })
         ],
       ),

@@ -19,6 +19,7 @@ class _YouTubeVideoPlayer extends State<YouTubeVideoPlayer> {
 
     _controller = YoutubePlayerController(
         initialVideoId: videoId!,
+
         flags: const YoutubePlayerFlags(
           autoPlay: true,
         ));
