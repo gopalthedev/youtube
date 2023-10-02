@@ -5,6 +5,9 @@ class Subscription extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text("This is the Subscription page"));
+    return const Container(
+      color: Colors.white,
+      child : Text("This is the subscription"),  
+    );
   }
 }
